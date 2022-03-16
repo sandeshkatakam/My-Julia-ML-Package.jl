@@ -1,0 +1,13 @@
+name = "My-Julia-ML-Package"
+uuid = "90bb7426-fe6a-4f56-9f47-0a421431a7c2"
+authors = ["Sandesh Katakam"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
